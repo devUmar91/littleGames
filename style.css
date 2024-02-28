@@ -1,0 +1,27 @@
+*{
+    font-family:sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: rgb(235, 142, 235);
+}
+button{
+    padding: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 10px;
+}
+.box{
+    border-radius: 20px;
+    height: 100px;
+    border: solid;
+    cursor: pointer;
+}
+.active{
+    background-color: black;
+}
